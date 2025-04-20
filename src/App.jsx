@@ -6,8 +6,8 @@ import Admin from './pages/Admin';
 function App() {
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
       <Route path="/admin/*" element={<Admin />} />
+      <Route path="/login" element={<Login />} />
       <Route path="*" element={<Login />} />
     </Routes>
   );
